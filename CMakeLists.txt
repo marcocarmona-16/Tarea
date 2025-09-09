@@ -9,4 +9,5 @@ add_executable(Tarea main.c
         Ejercicio_2.c
         Ejercicio_3.c
         Ejercicio_4.c
-        Ejercicio_5.c)
+        Ejercicio_5.c
+        Ejercicio_6.c)

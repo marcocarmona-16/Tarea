@@ -122,3 +122,38 @@ bool palos_iguales(char palo1, char palo2) {
     }
     return palo1==palo2;
 }
+
+void especial_invertidos(int valor, char palo) {
+    switch (valor) {
+        case 1:
+            printf("Valor J      ");
+            break;
+        case 11:
+            printf("Valor: A      ");
+            break;
+        case 12:
+            printf("Valor: Q     ");
+            break;
+        case 13:
+            printf("Valor: K    ");
+            break;
+        default:
+            printf("Valor: %d    ", valor);
+            break;
+    }
+
+    switch (palo) {
+        case 'C':
+            printf("Palo: Corazon");
+            break;
+        case 'P':
+            printf("Palo: Picas");
+            break;
+        case 'T':
+            printf("Palo: Trebol");
+            break;
+        case 'D':
+            printf("Palo: Diamante");
+            break;
+    }
+}
