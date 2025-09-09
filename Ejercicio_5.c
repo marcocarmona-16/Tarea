@@ -19,4 +19,5 @@ int main() {
     printf("\n");
     palos_iguales(palocarta1, palocarta2);
     return 0;
+
 }
