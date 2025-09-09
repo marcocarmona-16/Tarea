@@ -6,6 +6,7 @@
 #include <stdbool.h>
 
 int main() {
+    initAleatorio();
     int valorcarta_1, valorcarta_2;
     char palocarta_1, palocarta_2;
     bool es_igual;
