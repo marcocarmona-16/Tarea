@@ -16,5 +16,6 @@ char palo_aleatorio();
 
 //declaramos la funcion
 int generarvalornumerico();
+void especial(int valor, char palo);
 
 #endif //ALEATORIO_H

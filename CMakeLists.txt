@@ -6,4 +6,5 @@ set(CMAKE_C_STANDARD 23)
 add_executable(Tarea main.c
         aleatorio.c
         aleatorio.h
-        Ejercicio_2.c)
+        Ejercicio_2.c
+        Ejercicio_3.c)

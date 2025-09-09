@@ -1,4 +1,5 @@
 #include "aleatorio.h"
+#include <stdio.h>
 //
 // Created by Cecilia Curlango on 8/26/25.
 //
@@ -44,7 +45,6 @@ int generaLadoFicha() {
 //Generar palo aleatorio
 char palo_aleatorio() {
     char palo;
-    int numero=numeroAleatorio(4);
     switch (numeroAleatorio(4)) {
         case 0:
             palo='C';
@@ -67,4 +67,39 @@ int generarvalornumerico() {
     int numero;
     numero=numeroAleatorio(13)+1;
     return numero;
+}
+
+void especial(int valor, char palo) {
+    switch (valor) {
+        case 1:
+            printf("Valor A      ");
+            break;
+        case 11:
+            printf("Valor: J      ");
+            break;
+        case 12:
+            printf("Valor: Q     ");
+            break;
+        case 13:
+            printf("Valor: K    ");
+            break;
+        default:
+            printf("Valor: %d    ", valor);
+            break;
+    }
+
+    switch (palo) {
+        case 'C':
+            printf("Palo: Corazon");
+            break;
+        case 'P':
+            printf("Palo: Picas");
+            break;
+        case 'T':
+            printf("Palo: Trebol");
+            break;
+        case 'D':
+            printf("Palo: Diamante");
+            break;
+    }
 }
