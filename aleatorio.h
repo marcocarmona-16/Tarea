@@ -8,6 +8,7 @@
 #define ALEATORIO_H
 #include <stdlib.h>
 #include <time.h>
+#include <stdbool.h>
 int numeroAleatorio(int maximo);
 int numeroAleatorioConRango(int minimo,int maximo);
 int lanzarDado();
@@ -17,5 +18,6 @@ char palo_aleatorio();
 //declaramos la funcion
 int generarvalornumerico();
 void especial(int valor, char palo);
+bool Son_iguales(int valor1, int valor2);
 
 #endif //ALEATORIO_H

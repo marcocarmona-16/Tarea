@@ -1,5 +1,6 @@
 #include "aleatorio.h"
 #include <stdio.h>
+#include <stdbool.h>
 //
 // Created by Cecilia Curlango on 8/26/25.
 //
@@ -102,4 +103,13 @@ void especial(int valor, char palo) {
             printf("Palo: Diamante");
             break;
     }
+}
+
+bool Son_iguales(int valor1, int valor2) {
+    if (valor1==valor2) {
+        printf("TRUE");
+    }else {
+        printf("FALSE");
+    }
+    return valor1==valor2;
 }
