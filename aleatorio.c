@@ -61,3 +61,9 @@ char palo_aleatorio() {
     }
     return palo;
 }
+//Generar valor aleatorio de una carta de baraja inglesa
+int generarvalornumerico() {
+    int numero;
+    numero=numeroAleatorio(13)+1;
+    return numero;
+}

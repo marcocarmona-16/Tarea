@@ -13,5 +13,6 @@ int numeroAleatorioConRango(int minimo,int maximo);
 int lanzarDado();
 void initAleatorio();
 char palo_aleatorio();
+int generarvalornumerico();
 
 #endif //ALEATORIO_H
