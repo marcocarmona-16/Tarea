@@ -113,3 +113,12 @@ bool Son_iguales(int valor1, int valor2) {
     }
     return valor1==valor2;
 }
+
+bool palos_iguales(char palo1, char palo2) {
+    if (palo1==palo2) {
+        printf("TRUE");
+    }else {
+        printf("FALSE");
+    }
+    return palo1==palo2;
+}
